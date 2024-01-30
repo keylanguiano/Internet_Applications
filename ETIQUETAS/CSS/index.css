@@ -1,0 +1,24 @@
+span
+{
+    /* */
+}
+
+#nombre
+{
+    /* */
+}
+
+.nombreClase
+{
+    /* */
+}
+
+.nombreClase, .nombreClase2
+{
+ /* */
+}
+
+body > header > span
+{
+    font-size: 40px;
+}
