@@ -1,0 +1,247 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-family: 'Poiret One', sans-serif;
+}
+
+.container
+{
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-header
+{
+    background-image: url("../assets/images/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 18.75em;
+}
+
+.bg-navbar
+{
+    background-color: rgba(0, 0, 0, 0.157);
+    padding: 1.5em 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-brand
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.navbar-brand img
+{
+    width: 3em;
+}
+
+.navbar-nav {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+    border-radius: 0.5em;
+}
+
+.btn
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1em;
+    margin: 0 0.1em;
+    border-radius: 2em;
+    transition-duration: 0.2s;
+}
+
+.btn-dark
+{
+    color: white;
+    background-color: #2f2e2e;
+}
+
+.btn-dark:hover
+{
+    color: white;
+    background-color: #a8a8a8d4;
+}
+
+.btn-primary
+{
+    color: white;
+    background-color: #214037;
+}
+
+.btn-secondary
+{
+    color: white;
+    background-color: #77a699;
+}
+
+.btn-danger
+{
+    color: white;
+    background-color: black;
+}
+
+.btn-info
+{
+    color: black;
+    background-color: #e2f2c9;
+}
+
+.main
+{
+    background-color: white;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+.main-title
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.card
+{
+    background-color: white;
+    color: black;
+    /* Genera scroll*/
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+    width: 40%;
+    margin: 10px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.card img
+{
+    width: 100%;
+}
+
+.card-body
+{
+    padding: 1em;
+    text-align: center;
+}
+
+.card-body h5
+{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.card-body p
+{
+    font-weight: 300;
+}
+
+.tienda
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.nosotros
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #454646;
+}
+
+.nosotros-col-img
+{
+    order: 2;
+    background-image: url('../ASSETS/IMAGES/apple_footer.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+}
+
+.nosotros-col-text
+{
+    order: 1;
+}
+
+.nosotros-body
+{
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.nosotros-body h2
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nosotros-body p
+{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.bg-footer
+{
+    color: white;
+    background-color: #b0b0b0;
+}
+
+.bg-footer p
+{
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    padding: 2em;
+}
