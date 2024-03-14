@@ -14,13 +14,16 @@ body
 .background-center
 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #e4fafe;
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow-y: auto;
+    padding-bottom: 60px;
 }
 
 .titulo
@@ -30,6 +33,7 @@ body
     margin-bottom: 50px;
     color: #ffffff;
     text-shadow: 0 1px 3px #43434339;
+    margin-top: 240px;
 }
 
 .input-city
@@ -115,16 +119,56 @@ body
     align-items: flex-end;
 }
 
+.current
+{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.current-info
+{
+    display: flex;
+    margin: auto;
+    padding: 0;
+}
+
+.current-info-2
+{
+    margin-top: -76px;
+    margin-left: 15px;
+}
+
+.viento
+{
+    margin-top: -17px;
+}
+
+.estado
+{
+    margin-top: -60px;
+    margin-bottom: 0px;
+}
+
+.humedad
+{
+    margin-top: -1px;
+}
+
 .temperatura 
 {
-    width: 45%;
-    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 55px;
     font-weight: 1000;
     text-shadow: 0 1px 1px #53535337;
+    margin-top: -15px;
+    text-align: center;
 }
 
 .datos 
@@ -139,4 +183,62 @@ body
 .fecha 
 {
     margin-bottom: 5px;
+}
+
+.stadistic
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    position: relative;
+    margin-top: 100px;
+}
+
+.stadistic-table
+{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #91e4ffc1;
+    overflow-y: auto;
+}
+
+.stadistic-header-row
+{
+    background-color: #7cdeffc1 !important;
+}
+
+.stadistic-header
+{
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    padding: 10px 0;
+}
+
+.stadistic-table tr:nth-child(even) {
+    background-color: #d9faffc1;
+}
+
+.stadistic-table tr:nth-child(odd) {
+    background-color: #eafdffc1;
+}
+
+.stadistic-row
+{
+    background-color: #dffbffc1;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.stadistic-text
+{
+    font-size: 16px;
+    font-weight: 300;
+    width: 100px;
+    padding: 10px 0;
+    color: #5e5e5e;
 }
