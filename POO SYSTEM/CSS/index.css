@@ -1,0 +1,45 @@
+* 
+{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 20px;
+}
+
+.input-data
+{
+    width: 50% !important;
+    border-radius: 30px;
+}
+
+.btn-add
+{
+    background-color: #ff8d7e !important;
+    border-radius: 25px !important;
+    padding: 10px 20px;
+    border: none;
+}
+
+.card
+{
+    border-radius: 30px !important;
+    min-height: 250px !important;
+    padding-top: 10px !important;
+    margin-top: 30px;
+}
+
+.card-person
+{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.btn-state
+{
+    border-radius: 25px !important;
+    padding: 5px 15px;
+}
+
+.text-primary
+{
+    color: black !important;
+}
