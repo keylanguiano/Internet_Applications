@@ -29,17 +29,64 @@
             <img src="./ASSETS/IMAGES/big-sun.svg" class="big-sun">
             <img src="./ASSETS/IMAGES/sun.svg" class="sun">
             <div class="contenido">
-                <span id="temperatura" class="temperatura">27 °</span>
+                <div class="current">
+                    <div class="current-info">
+                        <div class="current-info-1">
+                            <p id="estado" class="estado"></p>
+                            <p id="humedad" class="humedad"></p>
+                        </div>
+                        <div class="current-info-2">
+                            <p id="viento-title" class="viento-title">Speed</p>
+                            <p id="viento" class="viento"></p>
+                        </div>
+                    </div>
+                    <p id="temperatura" class="temperatura"></p> 
+                </div>
                 <div class="datos">
-                    <span id="fecha" class="fecha">Tuesday, 23 December</span>
+                    <span id="fecha" class="fecha"></span>
                     <div class="localidad">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span id="localidad" class="localidad-texto">Salamanca</span>
+                        <span id="localidad" class="localidad-texto"></span>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div id="stadistic" class="stadistic">
+            <table class="stadistic-table">
+                <thead  class="stadistic-header-row">
+                    <tr class="stadistic-header-row">
+                        <td class="stadistic-header">Weather</td>
+                        <td class="stadistic-header">Temperature</td>
+                        <td class="stadistic-header">Thermal sensation</td>
+                        <td class="stadistic-header">Speed wind</td>
+                        <td class="stadistic-header">Direction wind</td>
+                        <td class="stadistic-header">Rain</td>
+                        <td class="stadistic-header">Rain type</td>
+                        <td class="stadistic-header">Ozone</td>
+                        <td class="stadistic-header">Humidity</td>
+                    </tr>
+                </thead>
+    
+                <tbody id="body_table"></tbody>
+            </table>
+        </div>
+
     </div>
+
+    <template id="row_weather">
+        <tr class="stadistic-row">
+            <td id="weather" class="stadistic-text">Sunny</td>
+            <td id="temperature" class="stadistic-text">9 °</td>
+            <td id="thermal_sensation" class="stadistic-text">9.7 °</td>
+            <td id="speed_wind" class="stadistic-text">3.4 millas</td>
+            <td id="direction_wind" class="stadistic-text">SSE</td>
+            <td id="rain" class="stadistic-text">Rain</td>
+            <td id="rain_type" class="stadistic-text">Rain type</td>
+            <td id="ozone" class="stadistic-text">Ozone</td>
+            <td id="humedity" class="stadistic-text">Humidity</td>
+        </tr>
+    </template>
 
     <script src="./JS/index.js"></script>
     
