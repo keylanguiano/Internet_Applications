@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 PLAYER</title>
+
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <audio src="./MUSIC/No.mp3" id="audio"></audio>
+    
+    <div class="music-player">
+        <h1 class="music-name">Song</h1>
+        <p class="artist-name">Artist</p>
+        <p class="disk-name">Disk</p>
+
+        <div class="disk"></div>
+
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <div class="times">
+                <span class="current-time">00:00</span>
+                <span class="song-duration">00:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn backward-btn">
+                <img class="btn-image" src="./ASSETS/ICONS/Previous.svg" alt="">
+            </button>
+
+            <button class="btn control-btn">
+                <img src="./ASSETS/ICONS/Play.svg" class="play-btn">
+            </button>
+            
+
+            <button class="btn forward-btn">
+                <img class="btn-image" src="./ASSETS/ICONS/Next.svg" alt="">
+            </button>
+        </div>
+    </div>
+    
+
+    <script src="./JS/Data.js"></script>
+    <script src="./JS/App.js"></script>
+</body>
+</html>

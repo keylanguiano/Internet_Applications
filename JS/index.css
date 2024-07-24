@@ -1,0 +1,50 @@
+*
+{
+    font-family: 'Poiret One', sans-serif;
+    text-align: center;
+}
+
+.card-container
+{
+    border-radius: 20px;
+    min-height: 450px !important;
+    cursor: pointer;
+    border: none;
+    margin: 10px 5px;
+}
+
+.card-container:hover
+{
+    filter: brightness(80%);
+}
+
+.card-img-top
+{
+    border-radius: 20px 20px 0 0;
+}
+
+.title
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 120px;
+    text-transform: uppercase;
+}
+
+hr
+{
+    margin: 100px 0 70px 0;
+}
+
+.card-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title
+{
+    font-size: 25px !important;
+    margin-bottom: 10px;
+}
